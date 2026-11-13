@@ -17,11 +17,13 @@ export interface Project {
   stats?: Stat[];
   stack: string;
   tags: Tag[];
+  context?: string; // e.g. where it was built
   video?: { embed: string; link: string; title: string };
 }
 
 export const profile = {
   name: 'Gursimar Singh',
+  initials: 'GS',
   lede: 'I build full-stack products and applied ML systems, and I test them until the numbers hold up.',
   about:
     'Final-year B.Tech (CIOT) student at Netaji Subhas University of Technology, Delhi. Most recently a Product Intern at HCL Healthcare, where I shipped a finance approval portal and a health-insurance claims model. I work mostly in TypeScript (React, Next.js, Node.js, NestJS) and Python (FastAPI, scikit-learn).',
@@ -70,6 +72,7 @@ export const internshipProjects: Project[] = [
     ],
     stack: 'React, TypeScript, NestJS, Prisma, MySQL 8, React Query, Zustand, pnpm monorepo, Docker',
     tags: ['swe'],
+    context: 'HCL Healthcare internship',
   },
   {
     id: 'claims-predictor',
@@ -92,6 +95,7 @@ export const internshipProjects: Project[] = [
     ],
     stack: 'Python, Pandas, scikit-learn, XGBoost, LightGBM, joblib, FastAPI, React (Vite, TypeScript)',
     tags: ['ai', 'swe'],
+    context: 'HCL Healthcare internship',
   },
 ];
 
@@ -140,6 +144,7 @@ export const projects: Project[] = [
     ],
     stack: 'Next.js, TypeScript, PostgreSQL, Drizzle ORM, WhatsApp Cloud API, tesseract.js, Vitest, Docker',
     tags: ['swe', 'ai'],
+    context: 'YTL Hackathon 2026',
     video: {
       embed: 'https://drive.google.com/file/d/10jd537jqJQKNsgViOWQ-Zx5OI4QB9Wxv/preview',
       link: 'https://drive.google.com/file/d/10jd537jqJQKNsgViOWQ-Zx5OI4QB9Wxv/view',
@@ -219,3 +224,16 @@ export const education = [
 
 export const educationNote =
   'Coursework includes data structures and algorithms, DBMS, operating systems, computer networks, system design and compiler construction. Outside class, I captained my school volleyball team to the zonals.';
+
+export const experience = [
+  {
+    title: role.title,
+    when: role.when,
+    text: role.summary,
+  },
+  {
+    title: 'YTL Hackathon 2026, Enterprise Track A',
+    when: '2026, team of 2',
+    text: 'Built UdyamSaathi for the Airtel SYNC case "Project Udyam Digital": a bilingual SMB onboarding journey on the web and WhatsApp.',
+  },
+];
