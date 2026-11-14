@@ -171,9 +171,7 @@ export default function App() {
                       <span className="absolute top-2 -left-[7px] size-3 rounded-full bg-brand ring-4 ring-brand-soft" aria-hidden="true" />
                       <h4 className="text-xl font-extrabold text-ink">{e.qualification}</h4>
                       <p className="mt-1 text-[17px] text-body">{e.institution}</p>
-                      <p className="mt-1 text-[15px] font-semibold text-brand">
-                        {e.years} · {e.score}
-                      </p>
+                      <p className="mt-1 text-[15px] font-semibold text-brand">{e.years}</p>
                     </li>
                   ))}
                 </ol>

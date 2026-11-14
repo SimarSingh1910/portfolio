@@ -333,7 +333,6 @@ export function ContactForm() {
               .
             </>
           )}
-          {state === 'idle' && !WEB3FORMS_KEY && 'This opens your email app with the message filled in.'}
         </p>
         <button type="submit" className="btn-brand" disabled={state === 'sending'}>
           {state === 'sending' ? 'Sending…' : 'Submit'}

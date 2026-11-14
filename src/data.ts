@@ -205,21 +205,14 @@ export const projects: Project[] = [
 
 export const skills = [
   { group: 'Languages', items: 'TypeScript, JavaScript (ES6), Python, C++, SQL, HTML and CSS' },
-  { group: 'Frontend', items: 'React, Next.js, Tailwind CSS, shadcn/ui, React Query, Zustand' },
-  { group: 'Backend and databases', items: 'Node.js, Express, NestJS, FastAPI, Socket.io, PostgreSQL, MySQL, MongoDB, Prisma, Drizzle ORM' },
-  {
-    group: 'ML and data',
-    items:
-      'NumPy, Pandas, scikit-learn, XGBoost, LightGBM, TensorFlow/Keras, Matplotlib, Seaborn; preprocessing, feature engineering, evaluation and calibration, time-series forecasting',
-  },
-  { group: 'Generative AI', items: 'RAG, embeddings, ChromaDB, Google Gemini API, LangChain, structured LLM outputs, LLM evaluation' },
-  { group: 'Tools and testing', items: 'Git, Docker, pnpm, Vitest, pytest, Render' },
+  { group: 'Frontend', items: 'React, Next.js, Tailwind CSS' },
+  { group: 'Backend, databases and tools', items: 'Node.js, Express, FastAPI, Socket.io, Git, Docker, PostgreSQL, MySQL, MongoDB, Prisma' },
+  { group: 'ML and data', items: 'NumPy, Pandas, model evaluation and calibration' },
+  { group: 'Generative AI', items: 'RAG, embeddings, ChromaDB, Google Gemini API, LangChain, LLM evaluation' },
 ];
 
 export const education = [
-  { qualification: 'B.Tech (CIOT)', institution: 'Netaji Subhas University of Technology, Delhi', years: '2023–2027', score: '7.18 CGPA' },
-  { qualification: 'CBSE Class XII', institution: 'Guru Harkrishan Public School, H.E.', years: '2022', score: '82.3%' },
-  { qualification: 'CBSE Class X', institution: 'Guru Harkrishan Public School, H.E.', years: '2020', score: '91.2%' },
+  { qualification: 'B.Tech (CIOT)', institution: 'Netaji Subhas University of Technology, Delhi', years: '2023–2027' },
 ];
 
 export const educationNote =
