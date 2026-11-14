@@ -2,7 +2,7 @@
 
 Final-year B.Tech (CIOT) student at NSUT Delhi and former Product Intern at HCL Healthcare. I build full-stack products and applied ML systems. This repo is the source of my portfolio site.
 
-**Live site:**[Link](https://portfolio-1-wvrc.onrender.com) [GitHub](https://github.com/SimarSingh1910) · [LinkedIn](https://www.linkedin.com/in/gursimar1910) · [LeetCode](https://leetcode.com/u/Simar04)
+**Live site:**[Link](https://portfolio-1-wvrc.onrender.com) · [GitHub](https://github.com/SimarSingh1910) · [LinkedIn](https://www.linkedin.com/in/gursimar1910) · [LeetCode](https://leetcode.com/u/Simar04)
 
 ## Featured work
 
