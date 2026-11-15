@@ -146,8 +146,8 @@ export const projects: Project[] = [
     tags: ['swe', 'ai'],
     context: 'YTL Hackathon 2026',
     video: {
-      embed: 'https://drive.google.com/file/d/10jd537jqJQKNsgViOWQ-Zx5OI4QB9Wxv/preview',
-      link: 'https://drive.google.com/file/d/10jd537jqJQKNsgViOWQ-Zx5OI4QB9Wxv/view',
+      embed: 'https://drive.google.com/file/d/1FepPQrq97v1dh9y6LYPwPp_etBI7pdz3/preview',
+      link: 'https://drive.google.com/file/d/1FepPQrq97v1dh9y6LYPwPp_etBI7pdz3/view',
       title: 'UdyamSaathi demo video',
     },
   },
